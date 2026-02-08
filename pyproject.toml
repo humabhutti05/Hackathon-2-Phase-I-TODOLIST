@@ -1,0 +1,17 @@
+[project]
+name = "phase-1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "inquirer>=3.4.1",
+    "pytest>=9.0.2",
+    "rich>=14.3.1",
+]
+
+[project.scripts]
+app = "src.main:main"
+
+[tool.setuptools]
+packages = ["src", "src.todo"]
