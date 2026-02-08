@@ -4,7 +4,31 @@ __pycache__/
 build/
 dist/
 wheels/
-*.egg-info
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
 
 # Virtual environments
-.venv
+.venv/
+env/
+venv/
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment variables
+.env
+.env.local
+
+# Project specific
+.gemini/
+.specify/
+history/
+specs/history/
+test_imports.py
+run.sh
